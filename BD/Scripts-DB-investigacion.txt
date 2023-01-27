@@ -1,0 +1,12 @@
+CREATE DATABASE investigaciondss;
+
+USE investigaciondss;
+
+CREATE TABLE cliente(
+    id int(11) NOT NULL AUTO_INCREMENT,
+    nombre varchar(100) NOT NULL,
+    apellidos varchar(100) NOT NULL,
+    edad int(11) NOT NULL,
+    salario double(6,2) not NULL,
+    PRIMARY KEY (`id`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
